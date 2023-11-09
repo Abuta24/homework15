@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Chivo&family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;700&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:ital,wght@0,300;0,600;1,400&family=Red+Hat+Display:wght@500;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Chivo';
+    background-color: #121725;
+    background-image: url(assets/bck.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+    gap: 13.2px;
+}
+
+.mid{
+    margin-top: 57px;
+}
+
+h1{
+    color: #54E6AF;
+    text-align: center;
+    font-family: Chivo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+    width: 327px;
+}
+
+span{
+    color: #FFF;
+    font-family: Chivo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.upl{
+    color: #C2CBE5;
+    text-align: center;
+    font-family: Chivo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 327px;
+    margin-top: 16px;
+}
+
+.apps{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 33px;
+}
+
+.regbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+input{
+    width: 327px;
+    height: 46px;
+    border-radius: 30px;
+    padding-left: 30px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Chivo';
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    background-color: #2C344B;
+    border: none;
+    margin-top: 48px;
+}
+
+button{
+    width: 327px;
+    height: 46px;
+    border-radius: 28px;
+    background: #54E6AF;
+    box-shadow: 0px 2px 4px 0px rgba(84, 230, 175, 0.14);
+    margin: 0 auto;
+    border: none;
+}
+
+button:hover{
+    background: #B3FFE2;
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+}
+
+.req{
+    color: #121725;
+    font-family: 'Chivo';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.archanss{
+    display: none;
+}
